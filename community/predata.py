@@ -18,6 +18,6 @@ true_idx = []
 for value in lable:
     true_idx.append(value[0])
 print(true_idx)
-scio.savemat(dataname, {'net':data, 'true_idx':true_idx})
+scio.savemat(dataname, {'net': data, 'true_idx': true_idx})
 print('finished')
 print(true_idx)
